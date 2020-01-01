@@ -10,7 +10,7 @@ usersController.getAll = async (req, res) => {
     let merged = {};
     const start = 0;
     const length = 100;
-    
+    ///////////////////////////////////////////////////////////////
     users = await Users.paginate(
       merged,
       { password: 0 },
